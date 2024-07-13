@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/media/osama/Data/SW/ELD2024/ELD_2024/cpp/multTable/multTable.cpp" "multTable/CMakeFiles/multTable.dir/multTable.cpp.o" "gcc" "multTable/CMakeFiles/multTable.dir/multTable.cpp.o.d"
+  "/home/osama/workspace/ELD_2024/cpp/multTable/multTable.cpp" "multTable/CMakeFiles/multTable.dir/multTable.cpp.o" "gcc" "multTable/CMakeFiles/multTable.dir/multTable.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

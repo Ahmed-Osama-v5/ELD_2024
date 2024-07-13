@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/osama/Data/SW/ELD2024/ELD_2024/cpp
+CMAKE_SOURCE_DIR = /home/osama/workspace/ELD_2024/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build
+CMAKE_BINARY_DIR = /home/osama/workspace/ELD_2024/cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build/CMakeFiles /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build/MAX_Num//CMakeFiles/progress.marks
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MAX_Num/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build/CMakeFiles 0
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/osama/workspace/ELD_2024/cpp/build/CMakeFiles /home/osama/workspace/ELD_2024/cpp/build/MAX_Num//CMakeFiles/progress.marks
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MAX_Num/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/osama/workspace/ELD_2024/cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MAX_Num/clean
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MAX_Num/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MAX_Num/preinstall
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MAX_Num/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MAX_Num/preinstall
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MAX_Num/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 MAX_Num/CMakeFiles/MAX_Num.dir/rule:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MAX_Num/CMakeFiles/MAX_Num.dir/rule
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MAX_Num/CMakeFiles/MAX_Num.dir/rule
 .PHONY : MAX_Num/CMakeFiles/MAX_Num.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ MAX_Num: MAX_Num/CMakeFiles/MAX_Num.dir/rule
 
 # fast build rule for target.
 MAX_Num/fast:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f MAX_Num/CMakeFiles/MAX_Num.dir/build.make MAX_Num/CMakeFiles/MAX_Num.dir/build
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f MAX_Num/CMakeFiles/MAX_Num.dir/build.make MAX_Num/CMakeFiles/MAX_Num.dir/build
 .PHONY : MAX_Num/fast
 
 MAX_Num.o: MAX_Num.cpp.o
@@ -135,7 +135,7 @@ MAX_Num.o: MAX_Num.cpp.o
 
 # target to build an object file
 MAX_Num.cpp.o:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f MAX_Num/CMakeFiles/MAX_Num.dir/build.make MAX_Num/CMakeFiles/MAX_Num.dir/MAX_Num.cpp.o
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f MAX_Num/CMakeFiles/MAX_Num.dir/build.make MAX_Num/CMakeFiles/MAX_Num.dir/MAX_Num.cpp.o
 .PHONY : MAX_Num.cpp.o
 
 MAX_Num.i: MAX_Num.cpp.i
@@ -143,7 +143,7 @@ MAX_Num.i: MAX_Num.cpp.i
 
 # target to preprocess a source file
 MAX_Num.cpp.i:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f MAX_Num/CMakeFiles/MAX_Num.dir/build.make MAX_Num/CMakeFiles/MAX_Num.dir/MAX_Num.cpp.i
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f MAX_Num/CMakeFiles/MAX_Num.dir/build.make MAX_Num/CMakeFiles/MAX_Num.dir/MAX_Num.cpp.i
 .PHONY : MAX_Num.cpp.i
 
 MAX_Num.s: MAX_Num.cpp.s
@@ -151,7 +151,7 @@ MAX_Num.s: MAX_Num.cpp.s
 
 # target to generate assembly for a file
 MAX_Num.cpp.s:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f MAX_Num/CMakeFiles/MAX_Num.dir/build.make MAX_Num/CMakeFiles/MAX_Num.dir/MAX_Num.cpp.s
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f MAX_Num/CMakeFiles/MAX_Num.dir/build.make MAX_Num/CMakeFiles/MAX_Num.dir/MAX_Num.cpp.s
 .PHONY : MAX_Num.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

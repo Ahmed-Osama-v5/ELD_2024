@@ -1,4 +1,4 @@
-# Install script for directory: /media/osama/Data/SW/ELD2024/ELD_2024/cpp/MAX_Num
+# Install script for directory: /home/osama/workspace/ELD_2024/cpp/MAX_Num
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/media/osama/Data/SW/ELD2024/ELD_2024/cpp/ASCII_Table/ASCII_Table.cpp" "ASCII_Table/CMakeFiles/ASCII.dir/ASCII_Table.cpp.o" "gcc" "ASCII_Table/CMakeFiles/ASCII.dir/ASCII_Table.cpp.o.d"
+  "/home/osama/workspace/ELD_2024/cpp/ASCII_Table/ASCII_Table.cpp" "ASCII_Table/CMakeFiles/ASCII.dir/ASCII_Table.cpp.o" "gcc" "ASCII_Table/CMakeFiles/ASCII.dir/ASCII_Table.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

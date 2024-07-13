@@ -1,4 +1,4 @@
-# Install script for directory: /media/osama/Data/SW/ELD2024/ELD_2024/cpp
+# Install script for directory: /home/osama/workspace/ELD_2024/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,10 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/media/osama/Data/SW/ELD2024/ELD_2024/cpp/build/ASCII_Table/cmake_install.cmake")
-  include("/media/osama/Data/SW/ELD2024/ELD_2024/cpp/build/MAX_Num/cmake_install.cmake")
-  include("/media/osama/Data/SW/ELD2024/ELD_2024/cpp/build/multTable/cmake_install.cmake")
-  include("/media/osama/Data/SW/ELD2024/ELD_2024/cpp/build/vowelLetter/cmake_install.cmake")
+  include("/home/osama/workspace/ELD_2024/cpp/build/ASCII_Table/cmake_install.cmake")
+  include("/home/osama/workspace/ELD_2024/cpp/build/MAX_Num/cmake_install.cmake")
+  include("/home/osama/workspace/ELD_2024/cpp/build/multTable/cmake_install.cmake")
+  include("/home/osama/workspace/ELD_2024/cpp/build/vowelLetter/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/osama/Data/SW/ELD2024/ELD_2024/cpp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/osama/workspace/ELD_2024/cpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

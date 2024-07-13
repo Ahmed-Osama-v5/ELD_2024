@@ -1,5 +1,5 @@
 multTable/CMakeFiles/multTable.dir/multTable.cpp.o: \
- /media/osama/Data/SW/ELD2024/ELD_2024/cpp/multTable/multTable.cpp \
+ /home/osama/workspace/ELD_2024/cpp/multTable/multTable.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \

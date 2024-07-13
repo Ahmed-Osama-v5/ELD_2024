@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/osama/Data/SW/ELD2024/ELD_2024/cpp
+CMAKE_SOURCE_DIR = /home/osama/workspace/ELD_2024/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build
+CMAKE_BINARY_DIR = /home/osama/workspace/ELD_2024/cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build/CMakeFiles /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build/ASCII_Table//CMakeFiles/progress.marks
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ASCII_Table/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build/CMakeFiles 0
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/osama/workspace/ELD_2024/cpp/build/CMakeFiles /home/osama/workspace/ELD_2024/cpp/build/ASCII_Table//CMakeFiles/progress.marks
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ASCII_Table/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/osama/workspace/ELD_2024/cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ASCII_Table/clean
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ASCII_Table/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ASCII_Table/preinstall
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ASCII_Table/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ASCII_Table/preinstall
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ASCII_Table/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ASCII_Table/CMakeFiles/ASCII.dir/rule:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ASCII_Table/CMakeFiles/ASCII.dir/rule
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ASCII_Table/CMakeFiles/ASCII.dir/rule
 .PHONY : ASCII_Table/CMakeFiles/ASCII.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ASCII: ASCII_Table/CMakeFiles/ASCII.dir/rule
 
 # fast build rule for target.
 ASCII/fast:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f ASCII_Table/CMakeFiles/ASCII.dir/build.make ASCII_Table/CMakeFiles/ASCII.dir/build
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f ASCII_Table/CMakeFiles/ASCII.dir/build.make ASCII_Table/CMakeFiles/ASCII.dir/build
 .PHONY : ASCII/fast
 
 ASCII_Table.o: ASCII_Table.cpp.o
@@ -135,7 +135,7 @@ ASCII_Table.o: ASCII_Table.cpp.o
 
 # target to build an object file
 ASCII_Table.cpp.o:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f ASCII_Table/CMakeFiles/ASCII.dir/build.make ASCII_Table/CMakeFiles/ASCII.dir/ASCII_Table.cpp.o
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f ASCII_Table/CMakeFiles/ASCII.dir/build.make ASCII_Table/CMakeFiles/ASCII.dir/ASCII_Table.cpp.o
 .PHONY : ASCII_Table.cpp.o
 
 ASCII_Table.i: ASCII_Table.cpp.i
@@ -143,7 +143,7 @@ ASCII_Table.i: ASCII_Table.cpp.i
 
 # target to preprocess a source file
 ASCII_Table.cpp.i:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f ASCII_Table/CMakeFiles/ASCII.dir/build.make ASCII_Table/CMakeFiles/ASCII.dir/ASCII_Table.cpp.i
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f ASCII_Table/CMakeFiles/ASCII.dir/build.make ASCII_Table/CMakeFiles/ASCII.dir/ASCII_Table.cpp.i
 .PHONY : ASCII_Table.cpp.i
 
 ASCII_Table.s: ASCII_Table.cpp.s
@@ -151,7 +151,7 @@ ASCII_Table.s: ASCII_Table.cpp.s
 
 # target to generate assembly for a file
 ASCII_Table.cpp.s:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f ASCII_Table/CMakeFiles/ASCII.dir/build.make ASCII_Table/CMakeFiles/ASCII.dir/ASCII_Table.cpp.s
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(MAKE) $(MAKESILENT) -f ASCII_Table/CMakeFiles/ASCII.dir/build.make ASCII_Table/CMakeFiles/ASCII.dir/ASCII_Table.cpp.s
 .PHONY : ASCII_Table.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /media/osama/Data/SW/ELD2024/ELD_2024/cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/osama/workspace/ELD_2024/cpp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
