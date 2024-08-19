@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/MAX_Num.dir/MAX_Num.cpp.o -o MAX_Num 
+/usr/bin/c++ CMakeFiles/MAX_Num.dir/MAX_Num.cpp.o -o MAX_Num 

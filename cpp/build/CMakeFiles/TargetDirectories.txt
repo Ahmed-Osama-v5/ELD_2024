@@ -13,3 +13,6 @@
 /home/osama/workspace/ELD_2024/cpp/build/vowelLetter/CMakeFiles/vowelLetter.dir
 /home/osama/workspace/ELD_2024/cpp/build/vowelLetter/CMakeFiles/edit_cache.dir
 /home/osama/workspace/ELD_2024/cpp/build/vowelLetter/CMakeFiles/rebuild_cache.dir
+/home/osama/workspace/ELD_2024/cpp/build/lambda/CMakeFiles/lambda.dir
+/home/osama/workspace/ELD_2024/cpp/build/lambda/CMakeFiles/edit_cache.dir
+/home/osama/workspace/ELD_2024/cpp/build/lambda/CMakeFiles/rebuild_cache.dir

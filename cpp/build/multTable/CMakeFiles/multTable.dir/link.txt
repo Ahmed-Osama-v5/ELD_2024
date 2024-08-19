@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/multTable.dir/multTable.cpp.o -o multTable 
+/usr/bin/c++ CMakeFiles/multTable.dir/multTable.cpp.o -o multTable 

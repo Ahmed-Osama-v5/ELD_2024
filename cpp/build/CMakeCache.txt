@@ -234,6 +234,15 @@ MAX_Num_IS_TOP_LEVEL:STATIC=OFF
 MAX_Num_SOURCE_DIR:STATIC=/home/osama/workspace/ELD_2024/cpp/MAX_Num
 
 //Value Computed by CMake
+lambda_BINARY_DIR:STATIC=/home/osama/workspace/ELD_2024/cpp/build/lambda
+
+//Value Computed by CMake
+lambda_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+lambda_SOURCE_DIR:STATIC=/home/osama/workspace/ELD_2024/cpp/lambda
+
+//Value Computed by CMake
 main_BINARY_DIR:STATIC=/home/osama/workspace/ELD_2024/cpp/build
 
 //Value Computed by CMake
@@ -365,7 +374,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

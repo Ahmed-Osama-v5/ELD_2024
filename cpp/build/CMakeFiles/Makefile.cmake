@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
+  "/home/osama/workspace/ELD_2024/cpp/lambda/CMakeLists.txt"
   "/home/osama/workspace/ELD_2024/cpp/multTable/CMakeLists.txt"
   "/home/osama/workspace/ELD_2024/cpp/vowelLetter/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in"
@@ -130,6 +131,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "MAX_Num/CMakeFiles/CMakeDirectoryInformation.cmake"
   "multTable/CMakeFiles/CMakeDirectoryInformation.cmake"
   "vowelLetter/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lambda/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -139,4 +141,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "MAX_Num/CMakeFiles/MAX_Num.dir/DependInfo.cmake"
   "multTable/CMakeFiles/multTable.dir/DependInfo.cmake"
   "vowelLetter/CMakeFiles/vowelLetter.dir/DependInfo.cmake"
+  "lambda/CMakeFiles/lambda.dir/DependInfo.cmake"
   )

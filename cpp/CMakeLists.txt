@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.5)
 
 set(TARGET "main")
 
@@ -12,3 +12,4 @@ add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/ASCII_Table")
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/MAX_Num")
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/multTable")
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/vowelLetter")
+add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/lambda")

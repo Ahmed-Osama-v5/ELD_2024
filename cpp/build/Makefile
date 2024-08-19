@@ -181,6 +181,19 @@ vowelLetter/fast:
 	$(MAKE) $(MAKESILENT) -f vowelLetter/CMakeFiles/vowelLetter.dir/build.make vowelLetter/CMakeFiles/vowelLetter.dir/build
 .PHONY : vowelLetter/fast
 
+#=============================================================================
+# Target rules for targets named lambda
+
+# Build rule for target.
+lambda: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lambda
+.PHONY : lambda
+
+# fast build rule for target.
+lambda/fast:
+	$(MAKE) $(MAKESILENT) -f lambda/CMakeFiles/lambda.dir/build.make lambda/CMakeFiles/lambda.dir/build
+.PHONY : lambda/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -215,6 +228,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ASCII"
 	@echo "... MAX_Num"
+	@echo "... lambda"
 	@echo "... main"
 	@echo "... multTable"
 	@echo "... vowelLetter"

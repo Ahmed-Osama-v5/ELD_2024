@@ -68,6 +68,7 @@ all: ASCII_Table/all
 all: MAX_Num/all
 all: multTable/all
 all: vowelLetter/all
+all: lambda/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,6 +76,7 @@ preinstall: ASCII_Table/preinstall
 preinstall: MAX_Num/preinstall
 preinstall: multTable/preinstall
 preinstall: vowelLetter/preinstall
+preinstall: lambda/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -83,6 +85,7 @@ clean: ASCII_Table/clean
 clean: MAX_Num/clean
 clean: multTable/clean
 clean: vowelLetter/clean
+clean: lambda/clean
 .PHONY : clean
 
 #=============================================================================
@@ -114,6 +117,21 @@ MAX_Num/preinstall:
 # Recursive "clean" directory target.
 MAX_Num/clean: MAX_Num/CMakeFiles/MAX_Num.dir/clean
 .PHONY : MAX_Num/clean
+
+#=============================================================================
+# Directory level rules for directory lambda
+
+# Recursive "all" directory target.
+lambda/all: lambda/CMakeFiles/lambda.dir/all
+.PHONY : lambda/all
+
+# Recursive "preinstall" directory target.
+lambda/preinstall:
+.PHONY : lambda/preinstall
+
+# Recursive "clean" directory target.
+lambda/clean: lambda/CMakeFiles/lambda.dir/clean
+.PHONY : lambda/clean
 
 #=============================================================================
 # Directory level rules for directory multTable
@@ -152,7 +170,7 @@ vowelLetter/clean: vowelLetter/CMakeFiles/vowelLetter.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/osama/workspace/ELD_2024/cpp/build/CMakeFiles --progress-num=5,6 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/osama/workspace/ELD_2024/cpp/build/CMakeFiles --progress-num=7,8 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -230,7 +248,7 @@ MAX_Num/CMakeFiles/MAX_Num.dir/clean:
 multTable/CMakeFiles/multTable.dir/all:
 	$(MAKE) $(MAKESILENT) -f multTable/CMakeFiles/multTable.dir/build.make multTable/CMakeFiles/multTable.dir/depend
 	$(MAKE) $(MAKESILENT) -f multTable/CMakeFiles/multTable.dir/build.make multTable/CMakeFiles/multTable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/osama/workspace/ELD_2024/cpp/build/CMakeFiles --progress-num=7,8 "Built target multTable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/osama/workspace/ELD_2024/cpp/build/CMakeFiles --progress-num=9,10 "Built target multTable"
 .PHONY : multTable/CMakeFiles/multTable.dir/all
 
 # Build rule for subdir invocation for target.
@@ -256,7 +274,7 @@ multTable/CMakeFiles/multTable.dir/clean:
 vowelLetter/CMakeFiles/vowelLetter.dir/all:
 	$(MAKE) $(MAKESILENT) -f vowelLetter/CMakeFiles/vowelLetter.dir/build.make vowelLetter/CMakeFiles/vowelLetter.dir/depend
 	$(MAKE) $(MAKESILENT) -f vowelLetter/CMakeFiles/vowelLetter.dir/build.make vowelLetter/CMakeFiles/vowelLetter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/osama/workspace/ELD_2024/cpp/build/CMakeFiles --progress-num=9,10 "Built target vowelLetter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/osama/workspace/ELD_2024/cpp/build/CMakeFiles --progress-num=11,12 "Built target vowelLetter"
 .PHONY : vowelLetter/CMakeFiles/vowelLetter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -274,6 +292,32 @@ vowelLetter: vowelLetter/CMakeFiles/vowelLetter.dir/rule
 vowelLetter/CMakeFiles/vowelLetter.dir/clean:
 	$(MAKE) $(MAKESILENT) -f vowelLetter/CMakeFiles/vowelLetter.dir/build.make vowelLetter/CMakeFiles/vowelLetter.dir/clean
 .PHONY : vowelLetter/CMakeFiles/vowelLetter.dir/clean
+
+#=============================================================================
+# Target rules for target lambda/CMakeFiles/lambda.dir
+
+# All Build rule for target.
+lambda/CMakeFiles/lambda.dir/all:
+	$(MAKE) $(MAKESILENT) -f lambda/CMakeFiles/lambda.dir/build.make lambda/CMakeFiles/lambda.dir/depend
+	$(MAKE) $(MAKESILENT) -f lambda/CMakeFiles/lambda.dir/build.make lambda/CMakeFiles/lambda.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/osama/workspace/ELD_2024/cpp/build/CMakeFiles --progress-num=5,6 "Built target lambda"
+.PHONY : lambda/CMakeFiles/lambda.dir/all
+
+# Build rule for subdir invocation for target.
+lambda/CMakeFiles/lambda.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/osama/workspace/ELD_2024/cpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lambda/CMakeFiles/lambda.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/osama/workspace/ELD_2024/cpp/build/CMakeFiles 0
+.PHONY : lambda/CMakeFiles/lambda.dir/rule
+
+# Convenience name for target.
+lambda: lambda/CMakeFiles/lambda.dir/rule
+.PHONY : lambda
+
+# clean rule for target.
+lambda/CMakeFiles/lambda.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lambda/CMakeFiles/lambda.dir/build.make lambda/CMakeFiles/lambda.dir/clean
+.PHONY : lambda/CMakeFiles/lambda.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

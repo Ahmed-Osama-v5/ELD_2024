@@ -48,6 +48,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/osama/workspace/ELD_2024/cpp/build/MAX_Num/cmake_install.cmake")
   include("/home/osama/workspace/ELD_2024/cpp/build/multTable/cmake_install.cmake")
   include("/home/osama/workspace/ELD_2024/cpp/build/vowelLetter/cmake_install.cmake")
+  include("/home/osama/workspace/ELD_2024/cpp/build/lambda/cmake_install.cmake")
 
 endif()
 

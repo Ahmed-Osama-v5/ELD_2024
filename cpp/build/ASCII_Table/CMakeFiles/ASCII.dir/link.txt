@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/ASCII.dir/ASCII_Table.cpp.o -o ASCII 
+/usr/bin/c++ CMakeFiles/ASCII.dir/ASCII_Table.cpp.o -o ASCII 
