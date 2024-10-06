@@ -44,6 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/home/osama/workspace/ELD_2024/cpp/build/_deps/plog-build/cmake_install.cmake")
   include("/home/osama/workspace/ELD_2024/cpp/build/ASCII_Table/cmake_install.cmake")
   include("/home/osama/workspace/ELD_2024/cpp/build/MAX_Num/cmake_install.cmake")
   include("/home/osama/workspace/ELD_2024/cpp/build/multTable/cmake_install.cmake")

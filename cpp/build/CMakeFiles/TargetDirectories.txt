@@ -1,6 +1,8 @@
 /home/osama/workspace/ELD_2024/cpp/build/CMakeFiles/main.dir
 /home/osama/workspace/ELD_2024/cpp/build/CMakeFiles/edit_cache.dir
 /home/osama/workspace/ELD_2024/cpp/build/CMakeFiles/rebuild_cache.dir
+/home/osama/workspace/ELD_2024/cpp/build/_deps/plog-build/CMakeFiles/edit_cache.dir
+/home/osama/workspace/ELD_2024/cpp/build/_deps/plog-build/CMakeFiles/rebuild_cache.dir
 /home/osama/workspace/ELD_2024/cpp/build/ASCII_Table/CMakeFiles/ASCII.dir
 /home/osama/workspace/ELD_2024/cpp/build/ASCII_Table/CMakeFiles/edit_cache.dir
 /home/osama/workspace/ELD_2024/cpp/build/ASCII_Table/CMakeFiles/rebuild_cache.dir
